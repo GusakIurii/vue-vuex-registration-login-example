@@ -28,7 +28,8 @@ module.exports = {
     externals: {
         // global app config object
         config: JSON.stringify({
-            apiUrl: 'http://localhost:4000'
+            // apiUrl: 'https://10.128.0.2:4000'
+            apiUrl: 'https://copy.spe.pp.ua:4000'
         })
     }
 }
